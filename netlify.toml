@@ -5,5 +5,5 @@
 [context.production.environment]
   PUB_ENVIRONMENT = "web"
 
-[plugins]
-  package = "@netlify/plugin-install-flutter"
+[[plugins]]
+  package = "netlify-plugin-install-flutter"
