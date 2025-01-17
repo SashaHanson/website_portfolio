@@ -127,7 +127,7 @@ class _PortfolioScreenState extends State<PortfolioScreen> {
                                 title: 'Self Watering Planter',
                                 description:
                                     'This project is a work in progress. The concept is to design a planter that provides advanced functionality to ensure plant health while maintaining a sleek look with electronics hidden.',
-                                imageName: 'gradient_background.jpg',
+                                imageName: 'coming_soon.jpg',
 
                                 //TODO: the long description from each section should be saved as a .txt file and pulled on rather than having an entire essay in the code
                                 projectSectionList: [
@@ -219,7 +219,7 @@ class _PortfolioScreenState extends State<PortfolioScreen> {
                                 title: 'FPV Drone',
                                 description:
                                     'This First Person Viewing (FPV) drone was built from the ground up, utilizing skills in 3D modelling, circuit and PCB design, programming, and more.',
-                                imageName: 'gradient_background.jpg',
+                                imageName: 'coming_soon.jpg',
                                 projectSectionList: [
                                   ProjectSection(
                                     title: 'Coming Soon',
@@ -240,7 +240,7 @@ class _PortfolioScreenState extends State<PortfolioScreen> {
                                 title: 'Website Portfolio',
                                 description:
                                     'Made entirely using Googles front end programming language Flutter, this was made with the sole purpose of showcasing the many projects I\'ve worked on.',
-                                imageName: 'gradient_background.jpg',
+                                imageName: 'coming_soon.jpg',
                                 projectSectionList: [
                                   ProjectSection(
                                     title: 'Coming Soon',
@@ -261,7 +261,7 @@ class _PortfolioScreenState extends State<PortfolioScreen> {
                                 title: 'Autonomous Lawn Mower',
                                 description:
                                     'In an attempt to improve lawn care precision and efficiency, this design aims to replace a push mower with an autonomous one capable of cutting the lawn in the same time frame (~20min)',
-                                imageName: 'gradient_background.jpg',
+                                imageName: 'coming_soon.jpg',
                                 projectSectionList: [
                                   ProjectSection(
                                     title: 'Coming Soon',
@@ -286,7 +286,7 @@ class _PortfolioScreenState extends State<PortfolioScreen> {
                             title: 'Weather Forecast Machine Learning Model',
                             description:
                                 'This ML model allows me to apply and experiment with the knowledge I am being taught in my Artificial Intelligence Systems Engineering dual degree.',
-                            imageName: 'gradient_background.jpg',
+                            imageName: 'coming_soon.jpg',
                             projectSectionList: [
                               ProjectSection(
                                 title: 'Coming Soon',

@@ -24,8 +24,8 @@ class HomeTitlePage extends StatelessWidget {
           width: width,
           decoration: const BoxDecoration(
             image: DecorationImage(
-                image: NetworkImage(
-                    'images/cnc_machine_2k.jpg'), // Or use AssetImage for local images
+                image: AssetImage(
+                    'images/cnc_machine_2k.jpg'), // Changed to AssetImage
                 fit: BoxFit.cover),
           ),
         ),
@@ -40,7 +40,7 @@ class HomeTitlePage extends StatelessWidget {
             ),
             child: Container(
               alignment: AlignmentDirectional.bottomStart,
-              //TODO: Add a fade in animation from left to right that only appears upon entering the site or returning to this screen from another screen
+              // TODO: Add a fade-in animation from left to right that only appears upon entering the site or returning to this screen from another screen
               child: Text(
                 'ENGINEER \nINNOVATOR \nHOBBYIST',
                 style: TextStyle(
