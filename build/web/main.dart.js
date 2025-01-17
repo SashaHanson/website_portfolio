@@ -60006,7 +60006,7 @@ break
 case 4:throw A.e("Could not open the website")
 case 3:return A.N(null,r)}})
 return A.O($async$oh,r)},
-L(a){var s,r,q,p,o,n,m,l,k=this,j=null,i=t.w,h=A.bF(a,j,i).w.a.b,g=A.bF(a,j,i).w.a.a,f=B.c.az(h/892,0,1.5),e=B.c.az(g/1496,0.4,1.5),d=A.Yf(B.fG,!0,B.yI.S(0,e),g,B.AP,"About Me",B.cr)
+L(a){var s,r,q,p,o,n,m,l,k=this,j=null,i=t.w,h=A.bF(a,j,i).w.a.b,g=A.bF(a,j,i).w.a.a,f=B.c.az(h/892,0,1.5),e=B.c.az(g/1496,0.3,1.5),d=A.Yf(B.fG,!0,B.yI.S(0,e),g,B.AP,"About Me",B.cr)
 i=100*e
 s=A.Yf(B.fG,!0,new A.aN(270*e,i,i,130*e),g,B.AM,"Skills",B.vl)
 r=A.Yf(B.fG,!1,new A.aN(g*B.c.az(e,0.7,1)/1.4,130*B.c.az(e,1,1.5),90*e,0),g,B.AO,"Portfolio",B.eR)
@@ -60023,7 +60023,7 @@ i=A.a7O(q,A.a([A.DH(A.DB(A.a([new A.AA(h,g,j),d,s,A.dp(B.ad,A.a([i,n,r,new A.bL(
 q=t.N
 n=t.z
 m=t.d
-l=A.a([A.ao(["title","Sasha D. Hanson","callback",new A.a2A(k)],q,n)],m)
+l=A.a([A.ao(["title","Sasha Hanson","callback",new A.a2A(k)],q,n)],m)
 return A.a8S(A.dp(B.ad,A.a([i,new A.ko(A.a([A.ao(["title","About","callback",new A.a2B(k,h,f)],q,n),A.ao(["title","Skills","callback",new A.a2C(k,h,e,f,d)],q,n),A.ao(["title","Portfolio","callback",new A.a2D(k,h,f,g,d,s)],q,n),A.ao(["title","Contact","callback",new A.a2E(k)],q,n)],m),l,f,j)],p),B.a5))}}
 A.a2u.prototype={
 $0(){this.a.og()},
@@ -60154,7 +60154,7 @@ p=A.a7O(l,A.a([A.DH(A.DB(A.a([new A.tf(k,j,l,m),B.uB],s))),new A.DI(new A.bL(new
 n=t.N
 o=t.z
 q=t.d
-r=A.a([A.ao(["title","Sasha D. Hanson","callback",new A.a3X(this)],n,o)],q)
+r=A.a([A.ao(["title","Sasha Hanson","callback",new A.a3X(this)],n,o)],q)
 return A.a8S(A.dp(B.ad,A.a([p,new A.ko(A.a([A.ao(["title","Home","callback",new A.a3Y(a)],n,o)],q),r,i,m)],s),B.a5))}}
 A.a3X.prototype={
 $0(){var s=this.a.d
@@ -60358,7 +60358,7 @@ n=A.a7O(m,A.a([A.DH(A.DB(A.a([new A.Cb(s,o),A.e8(new A.rs(n,A.U(n).h("rs<1>")).g
 s=t.N
 m=t.z
 q=t.d
-p=A.a([A.ao(["title","Sasha D. Hanson","callback",new A.a4d(this)],s,m)],q)
+p=A.a([A.ao(["title","Sasha Hanson","callback",new A.a4d(this)],s,m)],q)
 return A.a8S(A.dp(B.ad,A.a([n,new A.ko(A.a([A.ao(["title","Back to Portfolio","callback",new A.a4e(a)],s,m),A.ao(["title","Home","callback",new A.a4f(a)],s,m)],q),p,k,o)],r),B.a5))}}
 A.a4c.prototype={
 $1(a){return A.e8(A.a([a.b,B.be],t.p),B.ah,B.G,B.H)},
@@ -62855,7 +62855,7 @@ B.D6=new A.aZ(B.e6,["Between my schooling, clubs, and work experience, I have ha
 B.AO=A.a(s([B.D6]),t.d)
 B.D7=new A.aZ(B.e6,["I am a passionate and dedicated student at the University of Western Ontario, currently completing my 3rd year of my 5 year dual degree in Mechatronics & A.I. Systems Engineering. I thoroughly enjoy working on projects that will expand my engineering knowledge and hands-on experience in mechanics, robotics, and programming applications, but I will take any opportunity to expand those horizons as well. I am an active participant in multiple university mega projects, where we exercise our creativity, leadership skills, as well as our analytical and innovative thinking skills.",B.cr,B.as],t.l)
 B.AP=A.a(s([B.D7]),t.d)
-B.D8=new A.aZ(B.e6,["If you have any questions, comments, or just want to learn more about me and what I do, shoot me an email or check out my LinkedIn and Github here:",B.cr,B.as],t.l)
+B.D8=new A.aZ(B.e6,["If you have any questions, comments, or just want to learn more about me and what I do, shoot me an email or check out my LinkedIn and GitHub here:",B.cr,B.as],t.l)
 B.AQ=A.a(s([B.D8]),t.d)
 B.AR=A.a(s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","keyup","keydown"]),t.s)
 B.HE=new A.uv(0,"left")

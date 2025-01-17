@@ -314,10 +314,7 @@ class _PortfolioScreenState extends State<PortfolioScreen> {
           ),
           BannerWidget(
             logoItems: [
-              {
-                'title': 'Sasha D. Hanson',
-                'callback': () => scrollToPosition(0)
-              },
+              {'title': 'Sasha Hanson', 'callback': () => scrollToPosition(0)},
             ],
             navItems: [
               {

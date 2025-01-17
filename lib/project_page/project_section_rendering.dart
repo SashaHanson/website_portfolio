@@ -90,10 +90,7 @@ class _ProjectSectionRenderingState extends State<ProjectSectionRendering> {
           ),
           BannerWidget(
             logoItems: [
-              {
-                'title': 'Sasha D. Hanson',
-                'callback': () => scrollToPosition(0)
-              },
+              {'title': 'Sasha Hanson', 'callback': () => scrollToPosition(0)},
             ],
             //TODO: possibly replace 'Back to Portfolio' button with just a back arrow
             navItems: [

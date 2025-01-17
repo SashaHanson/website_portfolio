@@ -77,7 +77,7 @@ class _HomeScreenState extends State<HomeScreen> {
     double width = MediaQuery.of(context).size.width; // 1496 for my screen
     // Adjust height and width to allow for active resizing when the screen size changes
     double heightAdjustment = (height / 892).clamp(0, 1.5);
-    double widthAdjustment = (width / 1496).clamp(0.4, 1.5);
+    double widthAdjustment = (width / 1496).clamp(0.3, 1.5);
 
     //define all sections here so the height getter may be used for NavBar coordinates
     SectionWidget aboutSection = SectionWidget(
@@ -182,7 +182,7 @@ class _HomeScreenState extends State<HomeScreen> {
       textItems: const [
         {
           'text':
-              'If you have any questions, comments, or just want to learn more about me and what I do, shoot me an email or check out my LinkedIn and Github here:',
+              'If you have any questions, comments, or just want to learn more about me and what I do, shoot me an email or check out my LinkedIn and GitHub here:',
           'alignment': AlignmentDirectional.bottomStart,
           'textAlign': TextAlign.left,
         },
@@ -380,10 +380,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           BannerWidget(
             logoItems: [
-              {
-                'title': 'Sasha D. Hanson',
-                'callback': () => scrollToPosition(0)
-              },
+              {'title': 'Sasha Hanson', 'callback': () => scrollToPosition(0)},
             ],
             navItems: [
               {
