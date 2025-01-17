@@ -12,9 +12,6 @@ tar xf flutter.tar.xz
 echo "Adding Flutter to PATH..."
 export PATH="$PATH:$PWD/flutter/bin"
 
-# Verify Flutter installation
-echo "Checking Flutter installation..."
-flutter doctor
-
-# Print Flutter version (for debugging purposes)
-flutter --version
+# Run Flutter Doctor to verify installation
+echo "Verifying Flutter installation..."
+flutter doctor || exit 1
