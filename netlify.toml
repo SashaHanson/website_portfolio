@@ -1,9 +1,0 @@
-[build]
-  publish = "build/web"
-  command = "flutter build web"
-
-[context.production.environment]
-  PUB_ENVIRONMENT = "web"
-
-[[plugins]]
-  package = "netlify-plugin-install-flutter"
